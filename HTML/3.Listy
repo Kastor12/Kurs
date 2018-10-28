@@ -1,0 +1,45 @@
+< !DOCTYPE html>
+<html>
+<meta charlset="utf-8">
+<title>Listy</title>
+<h3>Lista uporządkowana<h3>
+<ol type="A">
+  <li>Polska</li>
+  <li>Anglia</li>
+  <li>Włochy</li>
+  <li>Grecja</li>
+    </ol>
+  <h3> Lista Nieuporzątkowana</h3>
+    <ul type="sqeare"  ><--disc  A--><--disc circle-->
+    <li>Lech Poznań</li>
+       <li>Mieszko Gniezno</li>
+      <li>Huragan Pobiedziska</li>
+        
+    </ul>
+    <ol>
+    
+    <li> Ekstraklasa</li>
+        <ul> <li>Lech</li></ul>
+         <ul><li>Warta</li> </ul>
+        <ul><li>Miedz</li></ul>
+        
+    <li> 1 Liga</li>
+        <ul> Ruch</ul>
+         <ul> Spójnia</ul>
+         </ol>
+    </ul>
+    <h3> Lista Definicji</h3>
+    
+    <dl>  
+        <dt> HTML</dt>
+        <dd>  HTML pozwala opisać strukturę informacji zawartych wewnątrz strony internetowej, nadając znaczenie poszczególnym fragmentom tekstu – formując hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście    </dd>
+        <dt>
+        <dd> Immanuel Kant podzielił pojęcia na aprioryczne (wytwory intelektu) i aposterioryczne (powstałe poprzez abstrahowanie z doświadczenia).  </dd>
+        </dt>
+        </dl>
+    <!--Lista zagnieżdzona -->
+    
+    
+    
+    </body>
+    </html>

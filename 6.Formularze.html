@@ -1,0 +1,99 @@
+<!DOCTYPE html> <!--Formularze-->
+<html>
+    <head>
+<meta charlset="utf-8">
+<title>Formularze</title>
+    <link rel="stylesheet" href="style.css/style.form.css">
+    </head>
+<body>
+
+    <form method"get">
+    <input type="text" name="imię" autofocus autocomplit="off">
+    <input type="number" name="liczba" step="10">
+        <input type="number" name="liczba" step="10" autofocus>
+    Daty:
+
+        <input type="date" >
+         <input type="time" >
+             <input type="local-date">
+               <input type="week" >
+        Telefon:
+
+          <input type="tel"><br>
+
+        Kolor:
+                   <input type="color" nmame="kolor">
+
+        Zakres:
+
+          <input type="range"  name="zakres"     min="0"  max="255">
+         Lista:
+
+        <leabel> Dzień tygodnia</leabel>
+
+        <input type="text" list="tydzień">
+        <datalist id="tydzień"></datalist>
+        <option value="Poniedziałek"></option>
+        <option value="Wtorek"></option>
+        <option value="Środa"></option>
+        <option value="Czwartek"></option>
+        <option value="Piątek"></option>
+        <option value="Sobota"></option>
+         <input type ="submit">
+
+
+
+        Wyrażenia regularne
+    Pesel:
+
+        <input type="text" name="pesel" pattern="{0-9}{11}"><br>
+
+    Kod Pocztowy"
+    <input type="text" name="kod"  pattern="^\d{2}-\d{3}$">
+
+    Adres IP:
+
+    <input type="text" name="IP"
+        placeholder="Adres IP"   pattern="^\d{1,3}$">
+
+    Telefon komurkowy:
+
+    <input type=" text" name="TEl" placeholder="000-000-000" pattern ="^\d{3}.d{3}.\d{3}">
+
+
+
+    Hasło:
+
+
+    <input type ="text" name="pass" pattern="?=.*{a-Z}.{8,}"
+    placeholder="Janusz@1" requied>
+
+
+    <input type ="submit" formtarget="_blank">
+    <input type ="submit" formtarget="_blank"   formnovalidate formmethod="post">
+
+
+
+
+
+     <input type ="submit"   formnovalidate formmethod="post">
+
+
+
+    </form>
+
+    <h4>Nowy Formularz</h4>
+
+    <form oninput="wynik.value=parseInt(Liczba1.value)+parseInt(Liczba2.value)">
+
+    <input type="number" id="Liczba1">+
+     <input type="number" id="Liczba2">=
+    <output name="wynik" for="Liczba1 Liczba2"></output>
+    </form>
+
+    <h4>Formularz Obliczenia</h4>
+
+
+
+    </body>
+</html>
